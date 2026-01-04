@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+button{
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    border: none;
+    border-radius: 25px;
+}
+
+button a{
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 40px;
+    color: cornflowerblue;
+    align-content: center;
+}
+
+a:hover{
+    color: rgba(100, 148, 237, 0.707);
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+.href{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    display: block;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.hi{
+    font-size: 40px;
+    color: #fff;
+}
+
+.button button{
+    border-radius: 16px black;
+    border: 1px solid black;
+    color: #ffffffbc;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+.button button:hover{
+    background-color: rgba(100, 148, 237, 0.707);
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    margin-top: 80px;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+}
+
+.button button{
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.q{
+    display: flex;
+    gap: 20px;
+}
+
+.a{
+    width: 100%;
+    background-color: #211f1f67;
+    backdrop-filter: blur(8px);
+    width: 750px;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+
+button{
+    width: 190px;
+    padding: 25px 0px;
+}
+
+
+@media only screen and (max-width:600px) {   
+    .hi{
+        font-size: 30px;
+    }
+    .page{
+        font-size: 25px;
+    }
+    button{
+        width: 100px;
+        padding: 20px 0px;
+        font-size: 10px;
+    }
+    .q button{
+        font-size: 10px;
+    }
+    
+}
+
+@media only screen and (max-width:320px){
+    .q{
+        gap: 10px;
+    }
+    button{
+        width: 83px;
+        padding: 15px 0px;
+    }
+    .button{
+        margin-top: 0px;
+        height: 350px;
+    }
+}
